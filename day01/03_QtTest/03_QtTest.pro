@@ -17,9 +17,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     main.cpp \
+    newwidget.cpp \
     widget.cpp
 
 HEADERS += \
+    newwidget.h \
     widget.h
 
 # Default rules for deployment.

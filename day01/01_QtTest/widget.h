@@ -5,7 +5,7 @@
 
 class Widget : public QWidget
 {
-    Q_OBJECT
+    Q_OBJECT // 信号与槽的时候需要
 
 public:
     Widget(QWidget *parent = nullptr);

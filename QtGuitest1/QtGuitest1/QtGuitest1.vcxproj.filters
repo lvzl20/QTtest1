@@ -30,15 +30,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="QtGuitest1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="QtGuitest1.cpp">
+    <ClCompile Include="ParWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="QtGuitest1.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ParWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SubWidget.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

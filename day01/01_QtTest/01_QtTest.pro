@@ -16,10 +16,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    ../03_QtTest/newwidget.cpp \
     main.cpp \
     widget.cpp
 
 HEADERS += \
+    ../03_QtTest/newwidget.h \
     widget.h
 
 # Default rules for deployment.
