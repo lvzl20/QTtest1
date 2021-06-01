@@ -15,10 +15,12 @@ public:
     void mySlot();
     void change(); // 父窗口跳到子窗口函数
     void dealSub(); // 子窗口跳到父窗口函数
+    void dealSlot(int,QString);
 private:
     QPushButton b1;
     QPushButton *b2;
     QPushButton b3;
     newWidget nw;
+    int flag;
 };
 #endif // WIDGET_H

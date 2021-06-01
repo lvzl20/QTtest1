@@ -2,6 +2,7 @@
 
 newWidget::newWidget(QWidget *parent) : QWidget(parent)
 {
+    resize(400,300);
     this->setWindowTitle("小弟");
     b.setText("切换到主窗口");
     b.setParent(this);
@@ -11,5 +12,6 @@ newWidget::newWidget(QWidget *parent) : QWidget(parent)
 }
 
 void newWidget::sendSlot(){
-    emit mySignal();
+    emit newWidget::mySignal();
+    emit newWidget::mySignal(250,QString("我是小弟"));
 }
