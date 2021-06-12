@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ChessImage/back.jpg</file>
+        <file>ChessImage/back1.jpg</file>
+        <file>ChessImage/black_army.png</file>
+        <file>ChessImage/black_car.png</file>
+        <file>ChessImage/black_horse.png</file>
+        <file>ChessImage/black_maste.png</file>
+        <file>ChessImage/black_pao.png</file>
+        <file>ChessImage/black_shi.png</file>
+        <file>ChessImage/black_xiang.png</file>
+        <file>ChessImage/red_army.png</file>
+        <file>ChessImage/red_car.png</file>
+        <file>ChessImage/red_horse.png</file>
+        <file>ChessImage/red_maste.png</file>
+        <file>ChessImage/red_pao.png</file>
+        <file>ChessImage/red_shi.png</file>
+        <file>ChessImage/red_xiang.png</file>
+    </qresource>
+</RCC>
