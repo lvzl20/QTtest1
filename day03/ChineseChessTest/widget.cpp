@@ -23,10 +23,13 @@ Widget::Widget(QWidget *parent)
     // 当前行棋为初始化为红色方
     this->curToGo = Chess::RED;
 
-    this->oldLogicX = -1;
-    this->oldLogicY = -1;
     // 初始化棋子在棋盘上
     init();
+
+
+    this->oldLogicX = -1;
+    this->oldLogicY = -1;
+
 }
 
 Widget::~Widget()

@@ -39,7 +39,7 @@ private:
     bool moveMasteTo(int,int,bool);
 
     bool done(); // 判断是否游戏结束
-    bool isWillDie();// 判断是否被将军
+//    bool isWillDie();// 判断是否被将军
 
     int areaBlong(int logicY); // 传入逻辑y值(单位为棋盘的格子)判断当前所在红方还是黑方区域
     void reUpdate(); // 更新棋盘
