@@ -1,8 +1,11 @@
 #include "tcpserversocket.h"
-
+#include <QDebug>
 TcpServerSocket::TcpServerSocket(QObject *parent) : QTcpServer(parent)
 {
-    this->listen(QHostAddress::Any, 8888);
+//    this->listen(QHostAddress::Any, 8888);
+    this->listen(QHostAddress("192.168.43.233"), 8888);
+//    this->listen(QHostAddress::Any, 8888);
+    qDebug() << this->errorString();
 }
 
 void TcpServerSocket::incomingConnection(qintptr handle){
@@ -26,6 +29,7 @@ void TcpServerSocket::slotReadData(){
     QTcpSocket *it = static_cast<QTcpSocket *>(sender());
     QByteArray array = it->readAll();
     QString msg = array;
+    // 更新界面
     emit upDateserver(msg);
 
     // 给每个在线客户发送

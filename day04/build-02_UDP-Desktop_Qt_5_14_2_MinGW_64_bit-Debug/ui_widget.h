@@ -103,6 +103,7 @@ public:
         label->setText(QCoreApplication::translate("Widget", "\345\257\271\346\226\271\347\232\204IP", nullptr));
         buttonSend->setText(QCoreApplication::translate("Widget", "Send", nullptr));
         label_2->setText(QCoreApplication::translate("Widget", "\345\257\271\346\226\271\347\232\204\347\253\257\345\217\243", nullptr));
+        lineEditIp->setText(QCoreApplication::translate("Widget", "127.0.0.1", nullptr));
     } // retranslateUi
 
 };

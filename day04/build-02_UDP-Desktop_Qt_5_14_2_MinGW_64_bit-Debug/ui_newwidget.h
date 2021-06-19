@@ -100,6 +100,7 @@ public:
     {
         newWidget->setWindowTitle(QCoreApplication::translate("newWidget", "Form", nullptr));
         label->setText(QCoreApplication::translate("newWidget", "\345\257\271\346\226\271\347\232\204IP", nullptr));
+        lineEditIp->setText(QCoreApplication::translate("newWidget", "127.0.0.1", nullptr));
         label_2->setText(QCoreApplication::translate("newWidget", "\345\257\271\346\226\271\347\232\204\347\253\257\345\217\243", nullptr));
         buttonSend->setText(QCoreApplication::translate("newWidget", "Send", nullptr));
         buttonClose->setText(QCoreApplication::translate("newWidget", "Close", nullptr));

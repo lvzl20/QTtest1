@@ -88,7 +88,11 @@
     <widget class="QLineEdit" name="lineEditPort"/>
    </item>
    <item row="0" column="2" colspan="3">
-    <widget class="QLineEdit" name="lineEditIp"/>
+    <widget class="QLineEdit" name="lineEditIp">
+     <property name="text">
+      <string>127.0.0.1</string>
+     </property>
+    </widget>
    </item>
   </layout>
  </widget>

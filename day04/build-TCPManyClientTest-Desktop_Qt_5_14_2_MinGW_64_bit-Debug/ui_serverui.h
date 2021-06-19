@@ -29,6 +29,7 @@ public:
         textEdit = new QTextEdit(serverUi);
         textEdit->setObjectName(QString::fromUtf8("textEdit"));
         textEdit->setGeometry(QRect(20, 20, 511, 291));
+        textEdit->setReadOnly(true);
 
         retranslateUi(serverUi);
 

@@ -32,6 +32,8 @@ public:
     QLineEdit *lineEditUserName;
     QLineEdit *lineEditPort;
     QPushButton *buttonJoin;
+    QPushButton *buttonSelectFile;
+    QTextEdit *textEditSelectFile;
 
     void setupUi(QWidget *TcpClient)
     {
@@ -53,10 +55,10 @@ public:
         label_3->setGeometry(QRect(9, 293, 36, 16));
         textEditSendMsg = new QTextEdit(TcpClient);
         textEditSendMsg->setObjectName(QString::fromUtf8("textEditSendMsg"));
-        textEditSendMsg->setGeometry(QRect(9, 236, 303, 51));
+        textEditSendMsg->setGeometry(QRect(10, 210, 303, 31));
         buttonSend = new QPushButton(TcpClient);
         buttonSend->setObjectName(QString::fromUtf8("buttonSend"));
-        buttonSend->setGeometry(QRect(320, 250, 75, 23));
+        buttonSend->setGeometry(QRect(320, 220, 75, 23));
         lineEditIp = new QLineEdit(TcpClient);
         lineEditIp->setObjectName(QString::fromUtf8("lineEditIp"));
         lineEditIp->setGeometry(QRect(75, 322, 133, 20));
@@ -69,6 +71,13 @@ public:
         buttonJoin = new QPushButton(TcpClient);
         buttonJoin->setObjectName(QString::fromUtf8("buttonJoin"));
         buttonJoin->setGeometry(QRect(208, 348, 75, 23));
+        buttonSelectFile = new QPushButton(TcpClient);
+        buttonSelectFile->setObjectName(QString::fromUtf8("buttonSelectFile"));
+        buttonSelectFile->setGeometry(QRect(320, 260, 75, 23));
+        textEditSelectFile = new QTextEdit(TcpClient);
+        textEditSelectFile->setObjectName(QString::fromUtf8("textEditSelectFile"));
+        textEditSelectFile->setGeometry(QRect(10, 250, 301, 31));
+        textEditSelectFile->setReadOnly(true);
 
         retranslateUi(TcpClient);
 
@@ -85,6 +94,7 @@ public:
         lineEditIp->setText(QCoreApplication::translate("TcpClient", "127.0.0.1", nullptr));
         lineEditPort->setText(QCoreApplication::translate("TcpClient", "8888", nullptr));
         buttonJoin->setText(QCoreApplication::translate("TcpClient", "\345\212\240\345\205\245\350\201\212\345\244\251\345\256\244", nullptr));
+        buttonSelectFile->setText(QCoreApplication::translate("TcpClient", "\351\200\211\346\213\251\346\226\207\344\273\266", nullptr));
     } // retranslateUi
 
 };

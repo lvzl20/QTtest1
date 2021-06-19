@@ -482,6 +482,7 @@ release/main.o: ../02_UDP/main.cpp ../02_UDP/widget.h \
 		F:/QT/5.14.2/mingw73_64/include/QtNetwork/qtnetwork-config.h \
 		F:/QT/5.14.2/mingw73_64/include/QtNetwork/qabstractsocket.h \
 		F:/QT/5.14.2/mingw73_64/include/QtNetwork/qhostaddress.h \
+		../02_UDP/newwidget.h \
 		F:/QT/5.14.2/mingw73_64/include/QtWidgets/QApplication \
 		F:/QT/5.14.2/mingw73_64/include/QtWidgets/qapplication.h \
 		F:/QT/5.14.2/mingw73_64/include/QtCore/qcoreapplication.h \
@@ -718,37 +719,6 @@ release/widget.o: ../02_UDP/widget.cpp ../02_UDP/widget.h \
 		F:/QT/5.14.2/mingw73_64/include/QtNetwork/qabstractsocket.h \
 		F:/QT/5.14.2/mingw73_64/include/QtNetwork/qhostaddress.h \
 		ui_widget.h \
-		F:/QT/5.14.2/mingw73_64/include/QtCore/QVariant \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/QApplication \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/qapplication.h \
-		F:/QT/5.14.2/mingw73_64/include/QtCore/qcoreapplication.h \
-		F:/QT/5.14.2/mingw73_64/include/QtCore/qeventloop.h \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/qdesktopwidget.h \
-		F:/QT/5.14.2/mingw73_64/include/QtGui/qguiapplication.h \
-		F:/QT/5.14.2/mingw73_64/include/QtGui/qinputmethod.h \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/QGridLayout \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/qgridlayout.h \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/qlayout.h \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/qboxlayout.h \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/QLabel \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/qlabel.h \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/qframe.h \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/QLineEdit \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/qlineedit.h \
-		F:/QT/5.14.2/mingw73_64/include/QtGui/qtextcursor.h \
-		F:/QT/5.14.2/mingw73_64/include/QtGui/qtextformat.h \
-		F:/QT/5.14.2/mingw73_64/include/QtGui/qpen.h \
-		F:/QT/5.14.2/mingw73_64/include/QtGui/qtextoption.h \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/QPushButton \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/qpushbutton.h \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/qabstractbutton.h \
-		F:/QT/5.14.2/mingw73_64/include/QtGui/qicon.h \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/QSpacerItem \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/QTextEdit \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/qtextedit.h \
-		F:/QT/5.14.2/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
-		F:/QT/5.14.2/mingw73_64/include/QtGui/qtextdocument.h \
 		F:/QT/5.14.2/mingw73_64/include/QtNetwork/QHostAddress
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\widget.o ..\02_UDP\widget.cpp
 

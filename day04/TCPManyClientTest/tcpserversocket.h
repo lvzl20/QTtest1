@@ -5,6 +5,7 @@
 #include <QTcpServer>
 #include <QTcpSocket>
 
+
 // 用于监听和通讯的服务器类,因为要使用incomingConnection, 所以要继承于QTcpServer,
 class TcpServerSocket : public QTcpServer
 {
